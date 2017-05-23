@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD944671BCD6A880000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944661BCD6A880000655A /* main.m */; };
+		BCD9446F1BCD6C460000655A /* MoiveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9446E1BCD6C460000655A /* MoiveModel.m */; };
+		BCD944721BCD6C510000655A /* TagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944711BCD6C510000655A /* TagsModel.m */; };
+		BCD9447A1BCD842D0000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944791BCD842D0000655A /* main.m */; };
+		BCD944811BCD84790000655A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944801BCD84790000655A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCD944891BCDC1AD0000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944881BCDC1AD0000655A /* main.m */; };
+		BCD944901BCDC4950000655A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9448F1BCDC4950000655A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCD944981BCDD14C0000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944971BCDD14C0000655A /* main.m */; };
+		BCD9449F1BCDD16B0000655A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9449E1BCDD16B0000655A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCD944A21BCDD68D0000655A /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944A11BCDD68D0000655A /* UserModel.m */; };
+		BCD944A51BCDD69D0000655A /* TagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944A41BCDD69D0000655A /* TagsModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCD944611BCD6A880000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944751BCD842D0000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944841BCDC1AD0000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944931BCDD14C0000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCD944631BCD6A880000655A /* 1.家庭作业 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.家庭作业"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944661BCD6A880000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD9446D1BCD6C460000655A /* MoiveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoiveModel.h; sourceTree = "<group>"; };
+		BCD9446E1BCD6C460000655A /* MoiveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoiveModel.m; sourceTree = "<group>"; };
+		BCD944701BCD6C510000655A /* TagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsModel.h; sourceTree = "<group>"; };
+		BCD944711BCD6C510000655A /* TagsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsModel.m; sourceTree = "<group>"; };
+		BCD944771BCD842D0000655A /* 2.xPath路径解析实例 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2.xPath路径解析实例"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944791BCD842D0000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD9447F1BCD84790000655A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		BCD944801BCD84790000655A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		BCD944861BCDC1AD0000655A /* 3.根路径解析XML */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "3.根路径解析XML"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944881BCDC1AD0000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD9448E1BCDC4950000655A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		BCD9448F1BCDC4950000655A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		BCD944951BCDD14C0000655A /* 4.练习数据模型存储 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4.练习数据模型存储"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944971BCDD14C0000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD9449D1BCDD16B0000655A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		BCD9449E1BCDD16B0000655A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		BCD944A01BCDD68D0000655A /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		BCD944A11BCDD68D0000655A /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		BCD944A31BCDD69D0000655A /* TagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TagsModel.h; path = GDataXMLNode/TagsModel.h; sourceTree = "<group>"; };
+		BCD944A41BCDD69D0000655A /* TagsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TagsModel.m; path = GDataXMLNode/TagsModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD944601BCD6A880000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944741BCD842D0000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944831BCDC1AD0000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944921BCDD14C0000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD9445A1BCD6A880000655A = {
+			isa = PBXGroup;
+			children = (
+				BCD944651BCD6A880000655A /* 1.家庭作业 */,
+				BCD944781BCD842D0000655A /* 2.xPath路径解析实例 */,
+				BCD944871BCDC1AD0000655A /* 3.根路径解析XML */,
+				BCD944961BCDD14C0000655A /* 4.练习数据模型存储 */,
+				BCD944641BCD6A880000655A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD944641BCD6A880000655A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944631BCD6A880000655A /* 1.家庭作业 */,
+				BCD944771BCD842D0000655A /* 2.xPath路径解析实例 */,
+				BCD944861BCDC1AD0000655A /* 3.根路径解析XML */,
+				BCD944951BCDD14C0000655A /* 4.练习数据模型存储 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD944651BCD6A880000655A /* 1.家庭作业 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944661BCD6A880000655A /* main.m */,
+				BCD9446D1BCD6C460000655A /* MoiveModel.h */,
+				BCD9446E1BCD6C460000655A /* MoiveModel.m */,
+				BCD944701BCD6C510000655A /* TagsModel.h */,
+				BCD944711BCD6C510000655A /* TagsModel.m */,
+			);
+			path = "1.家庭作业";
+			sourceTree = "<group>";
+		};
+		BCD944781BCD842D0000655A /* 2.xPath路径解析实例 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9447E1BCD84790000655A /* GDataXMLNode */,
+				BCD944791BCD842D0000655A /* main.m */,
+			);
+			path = "2.xPath路径解析实例";
+			sourceTree = "<group>";
+		};
+		BCD9447E1BCD84790000655A /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9447F1BCD84790000655A /* GDataXMLNode.h */,
+				BCD944801BCD84790000655A /* GDataXMLNode.m */,
+			);
+			path = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+		BCD944871BCDC1AD0000655A /* 3.根路径解析XML */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9448D1BCDC4950000655A /* GDataXMLNode */,
+				BCD944881BCDC1AD0000655A /* main.m */,
+			);
+			path = "3.根路径解析XML";
+			sourceTree = "<group>";
+		};
+		BCD9448D1BCDC4950000655A /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9448E1BCDC4950000655A /* GDataXMLNode.h */,
+				BCD9448F1BCDC4950000655A /* GDataXMLNode.m */,
+			);
+			path = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+		BCD944961BCDD14C0000655A /* 4.练习数据模型存储 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944A31BCDD69D0000655A /* TagsModel.h */,
+				BCD944A41BCDD69D0000655A /* TagsModel.m */,
+				BCD9449C1BCDD16B0000655A /* GDataXMLNode */,
+				BCD944971BCDD14C0000655A /* main.m */,
+				BCD944A01BCDD68D0000655A /* UserModel.h */,
+				BCD944A11BCDD68D0000655A /* UserModel.m */,
+			);
+			path = "4.练习数据模型存储";
+			sourceTree = "<group>";
+		};
+		BCD9449C1BCDD16B0000655A /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9449D1BCDD16B0000655A /* GDataXMLNode.h */,
+				BCD9449E1BCDD16B0000655A /* GDataXMLNode.m */,
+			);
+			path = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD944621BCD6A880000655A /* 1.家庭作业 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD9446A1BCD6A880000655A /* Build configuration list for PBXNativeTarget "1.家庭作业" */;
+			buildPhases = (
+				BCD9445F1BCD6A880000655A /* Sources */,
+				BCD944601BCD6A880000655A /* Frameworks */,
+				BCD944611BCD6A880000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.家庭作业";
+			productName = "1.家庭作业";
+			productReference = BCD944631BCD6A880000655A /* 1.家庭作业 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944761BCD842D0000655A /* 2.xPath路径解析实例 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD9447B1BCD842D0000655A /* Build configuration list for PBXNativeTarget "2.xPath路径解析实例" */;
+			buildPhases = (
+				BCD944731BCD842D0000655A /* Sources */,
+				BCD944741BCD842D0000655A /* Frameworks */,
+				BCD944751BCD842D0000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.xPath路径解析实例";
+			productName = "2.xPath路径解析实例";
+			productReference = BCD944771BCD842D0000655A /* 2.xPath路径解析实例 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944851BCDC1AD0000655A /* 3.根路径解析XML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD9448C1BCDC1AD0000655A /* Build configuration list for PBXNativeTarget "3.根路径解析XML" */;
+			buildPhases = (
+				BCD944821BCDC1AD0000655A /* Sources */,
+				BCD944831BCDC1AD0000655A /* Frameworks */,
+				BCD944841BCDC1AD0000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3.根路径解析XML";
+			productName = "3.根路径解析XML";
+			productReference = BCD944861BCDC1AD0000655A /* 3.根路径解析XML */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944941BCDD14C0000655A /* 4.练习数据模型存储 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944991BCDD14D0000655A /* Build configuration list for PBXNativeTarget "4.练习数据模型存储" */;
+			buildPhases = (
+				BCD944911BCDD14C0000655A /* Sources */,
+				BCD944921BCDD14C0000655A /* Frameworks */,
+				BCD944931BCDD14C0000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4.练习数据模型存储";
+			productName = "4.练习数据模型存储";
+			productReference = BCD944951BCDD14C0000655A /* 4.练习数据模型存储 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD9445B1BCD6A880000655A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					BCD944621BCD6A880000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944761BCD842D0000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944851BCDC1AD0000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944941BCDD14C0000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = BCD9445E1BCD6A880000655A /* Build configuration list for PBXProject "1.家庭作业" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCD9445A1BCD6A880000655A;
+			productRefGroup = BCD944641BCD6A880000655A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD944621BCD6A880000655A /* 1.家庭作业 */,
+				BCD944761BCD842D0000655A /* 2.xPath路径解析实例 */,
+				BCD944851BCDC1AD0000655A /* 3.根路径解析XML */,
+				BCD944941BCDD14C0000655A /* 4.练习数据模型存储 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD9445F1BCD6A880000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD9446F1BCD6C460000655A /* MoiveModel.m in Sources */,
+				BCD944721BCD6C510000655A /* TagsModel.m in Sources */,
+				BCD944671BCD6A880000655A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944731BCD842D0000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD9447A1BCD842D0000655A /* main.m in Sources */,
+				BCD944811BCD84790000655A /* GDataXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944821BCDC1AD0000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944891BCDC1AD0000655A /* main.m in Sources */,
+				BCD944901BCDC4950000655A /* GDataXMLNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944911BCDD14C0000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944981BCDD14C0000655A /* main.m in Sources */,
+				BCD9449F1BCDD16B0000655A /* GDataXMLNode.m in Sources */,
+				BCD944A51BCDD69D0000655A /* TagsModel.m in Sources */,
+				BCD944A21BCDD68D0000655A /* UserModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCD944681BCD6A880000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCD944691BCD6A880000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/libxml2,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCD9446B1BCD6A880000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD9446C1BCD6A880000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD9447C1BCD842D0000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD9447D1BCD842D0000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD9448A1BCDC1AD0000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD9448B1BCDC1AD0000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD9449A1BCDD14D0000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD9449B1BCDD14D0000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD9445E1BCD6A880000655A /* Build configuration list for PBXProject "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944681BCD6A880000655A /* Debug */,
+				BCD944691BCD6A880000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD9446A1BCD6A880000655A /* Build configuration list for PBXNativeTarget "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD9446B1BCD6A880000655A /* Debug */,
+				BCD9446C1BCD6A880000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD9447B1BCD842D0000655A /* Build configuration list for PBXNativeTarget "2.xPath路径解析实例" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD9447C1BCD842D0000655A /* Debug */,
+				BCD9447D1BCD842D0000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD9448C1BCDC1AD0000655A /* Build configuration list for PBXNativeTarget "3.根路径解析XML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD9448A1BCDC1AD0000655A /* Debug */,
+				BCD9448B1BCDC1AD0000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD944991BCDD14D0000655A /* Build configuration list for PBXNativeTarget "4.练习数据模型存储" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD9449A1BCDD14D0000655A /* Debug */,
+				BCD9449B1BCDD14D0000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD9445B1BCD6A880000655A /* Project object */;
+}

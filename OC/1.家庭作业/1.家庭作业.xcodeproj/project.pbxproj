@@ -1,0 +1,350 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD621D31BBC45F40024A529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD621D21BBC45F40024A529 /* main.m */; };
+		BCD621DB1BBC46210024A529 /* NSMutableArray+ReserveArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD621DA1BBC46210024A529 /* NSMutableArray+ReserveArray.m */; };
+		BCD621E31BBC47A00024A529 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD621E21BBC47A00024A529 /* main.m */; };
+		BCD621E91BBC47BE0024A529 /* QFCar.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD621E81BBC47BE0024A529 /* QFCar.m */; };
+		BCD621EC1BBC47D20024A529 /* Taix.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD621EB1BBC47D20024A529 /* Taix.m */; };
+		BCD621EF1BBC47DF0024A529 /* Truck.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD621EE1BBC47DF0024A529 /* Truck.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCD621CD1BBC45F40024A529 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD621DE1BBC47A00024A529 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCD621CF1BBC45F40024A529 /* 1.家庭作业 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.家庭作业"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD621D21BBC45F40024A529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD621D91BBC46210024A529 /* NSMutableArray+ReserveArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+ReserveArray.h"; sourceTree = "<group>"; };
+		BCD621DA1BBC46210024A529 /* NSMutableArray+ReserveArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+ReserveArray.m"; sourceTree = "<group>"; };
+		BCD621E01BBC47A00024A529 /* 2.家庭作业－多态 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2.家庭作业－多态"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD621E21BBC47A00024A529 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD621E71BBC47BE0024A529 /* QFCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFCar.h; sourceTree = "<group>"; };
+		BCD621E81BBC47BE0024A529 /* QFCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFCar.m; sourceTree = "<group>"; };
+		BCD621EA1BBC47D20024A529 /* Taix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Taix.h; sourceTree = "<group>"; };
+		BCD621EB1BBC47D20024A529 /* Taix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Taix.m; sourceTree = "<group>"; };
+		BCD621ED1BBC47DF0024A529 /* Truck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Truck.h; sourceTree = "<group>"; };
+		BCD621EE1BBC47DF0024A529 /* Truck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Truck.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD621CC1BBC45F40024A529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD621DD1BBC47A00024A529 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD621C61BBC45F40024A529 = {
+			isa = PBXGroup;
+			children = (
+				BCD621D11BBC45F40024A529 /* 1.家庭作业 */,
+				BCD621E11BBC47A00024A529 /* 2.家庭作业－多态 */,
+				BCD621D01BBC45F40024A529 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD621D01BBC45F40024A529 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD621CF1BBC45F40024A529 /* 1.家庭作业 */,
+				BCD621E01BBC47A00024A529 /* 2.家庭作业－多态 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD621D11BBC45F40024A529 /* 1.家庭作业 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD621D21BBC45F40024A529 /* main.m */,
+				BCD621D91BBC46210024A529 /* NSMutableArray+ReserveArray.h */,
+				BCD621DA1BBC46210024A529 /* NSMutableArray+ReserveArray.m */,
+			);
+			path = "1.家庭作业";
+			sourceTree = "<group>";
+		};
+		BCD621E11BBC47A00024A529 /* 2.家庭作业－多态 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD621E21BBC47A00024A529 /* main.m */,
+				BCD621E71BBC47BE0024A529 /* QFCar.h */,
+				BCD621E81BBC47BE0024A529 /* QFCar.m */,
+				BCD621EA1BBC47D20024A529 /* Taix.h */,
+				BCD621EB1BBC47D20024A529 /* Taix.m */,
+				BCD621ED1BBC47DF0024A529 /* Truck.h */,
+				BCD621EE1BBC47DF0024A529 /* Truck.m */,
+			);
+			path = "2.家庭作业－多态";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD621CE1BBC45F40024A529 /* 1.家庭作业 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD621D61BBC45F40024A529 /* Build configuration list for PBXNativeTarget "1.家庭作业" */;
+			buildPhases = (
+				BCD621CB1BBC45F40024A529 /* Sources */,
+				BCD621CC1BBC45F40024A529 /* Frameworks */,
+				BCD621CD1BBC45F40024A529 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.家庭作业";
+			productName = "1.家庭作业";
+			productReference = BCD621CF1BBC45F40024A529 /* 1.家庭作业 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD621DF1BBC47A00024A529 /* 2.家庭作业－多态 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD621E41BBC47A00024A529 /* Build configuration list for PBXNativeTarget "2.家庭作业－多态" */;
+			buildPhases = (
+				BCD621DC1BBC47A00024A529 /* Sources */,
+				BCD621DD1BBC47A00024A529 /* Frameworks */,
+				BCD621DE1BBC47A00024A529 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.家庭作业－多态";
+			productName = "2.家庭作业－多态";
+			productReference = BCD621E01BBC47A00024A529 /* 2.家庭作业－多态 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD621C71BBC45F40024A529 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					BCD621CE1BBC45F40024A529 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD621DF1BBC47A00024A529 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = BCD621CA1BBC45F40024A529 /* Build configuration list for PBXProject "1.家庭作业" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCD621C61BBC45F40024A529;
+			productRefGroup = BCD621D01BBC45F40024A529 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD621CE1BBC45F40024A529 /* 1.家庭作业 */,
+				BCD621DF1BBC47A00024A529 /* 2.家庭作业－多态 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD621CB1BBC45F40024A529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD621DB1BBC46210024A529 /* NSMutableArray+ReserveArray.m in Sources */,
+				BCD621D31BBC45F40024A529 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD621DC1BBC47A00024A529 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD621E31BBC47A00024A529 /* main.m in Sources */,
+				BCD621E91BBC47BE0024A529 /* QFCar.m in Sources */,
+				BCD621EC1BBC47D20024A529 /* Taix.m in Sources */,
+				BCD621EF1BBC47DF0024A529 /* Truck.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCD621D41BBC45F40024A529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCD621D51BBC45F40024A529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCD621D71BBC45F40024A529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD621D81BBC45F40024A529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD621E51BBC47A00024A529 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD621E61BBC47A00024A529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD621CA1BBC45F40024A529 /* Build configuration list for PBXProject "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD621D41BBC45F40024A529 /* Debug */,
+				BCD621D51BBC45F40024A529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD621D61BBC45F40024A529 /* Build configuration list for PBXNativeTarget "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD621D71BBC45F40024A529 /* Debug */,
+				BCD621D81BBC45F40024A529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCD621E41BBC47A00024A529 /* Build configuration list for PBXNativeTarget "2.家庭作业－多态" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD621E51BBC47A00024A529 /* Debug */,
+				BCD621E61BBC47A00024A529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD621C71BBC45F40024A529 /* Project object */;
+}

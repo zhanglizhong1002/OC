@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 根节点 --> 
+<Users> <!-- 开始节点 -->
+    
+    <user>  <!-- 子节点 -->
+        <name>张三1111</name>
+        <age type="实岁">28</age>
+    </user>
+    
+    <user>
+        <name>李四5555555</name>
+        <age type="虚岁">19</age>
+    </user>
+    <user>
+        <name>王五2222</name>
+        <age type="虚岁">20</age>
+    </user>
+    <user>
+        <name>赵六3333</name>
+        <age type="虚岁">21</age>
+    </user>
+    <user>
+        <name>田七44444</name>
+        <age type="虚岁">22</age>
+    </user>
+
+
+</Users> <!-- 结束节点 -->

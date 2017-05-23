@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+ <dict>
+	<nickName>飞飞</nickName>
+	<password>123456</password>
+	<username>liufy</username>
+	<key>好基友</key>
+	<friend>
+		<name>关羽</name>
+		<sex>男</sex>
+		<age>29</age>
+	</friend>
+	<key>闺蜜</key>
+	<friend>
+		<name>貂蝉</name>
+		<sex>女</sex>
+		<age>16</age>
+	</friend>
+	<key>详细信息</key>
+	<array>
+		<dict>
+			<key>年薪</key>
+			<yearpay>20块</yearpay>
+		</dict>
+	</array>
+ </dict>
+</plist>

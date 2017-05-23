@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCB70F081BB45A520012CD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F071BB45A520012CD10 /* main.m */; };
+		BCB70F101BB45A6D0012CD10 /* StationTV1.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F0F1BB45A6D0012CD10 /* StationTV1.m */; };
+		BCB70F131BB45E870012CD10 /* StationTV2.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F121BB45E870012CD10 /* StationTV2.m */; };
+		BCB70F1B1BB462D20012CD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F1A1BB462D20012CD10 /* main.m */; };
+		BCB70F261BB470A50012CD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F251BB470A50012CD10 /* main.m */; };
+		BCB70F2C1BB470BC0012CD10 /* QFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F2B1BB470BC0012CD10 /* QFDog.m */; };
+		BCB70F341BB477680012CD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F331BB477680012CD10 /* main.m */; };
+		BCB70F3A1BB49DF90012CD10 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F391BB49DF90012CD10 /* Person.m */; };
+		BCB70F421BB4A1D80012CD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F411BB4A1D80012CD10 /* main.m */; };
+		BCB70F481BB4AB1E0012CD10 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F471BB4AB1E0012CD10 /* Person.m */; };
+		BCB70F501BB4B6C20012CD10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB70F4F1BB4B6C20012CD10 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCB70F021BB45A520012CD10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCB70F161BB462D20012CD10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCB70F211BB470A50012CD10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCB70F2F1BB477680012CD10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCB70F3D1BB4A1D80012CD10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCB70F4B1BB4B6C20012CD10 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCB70F041BB45A520012CD10 /* 1.家庭作业 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.家庭作业"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB70F071BB45A520012CD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB70F0E1BB45A6D0012CD10 /* StationTV1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationTV1.h; sourceTree = "<group>"; };
+		BCB70F0F1BB45A6D0012CD10 /* StationTV1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationTV1.m; sourceTree = "<group>"; };
+		BCB70F111BB45E870012CD10 /* StationTV2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StationTV2.h; sourceTree = "<group>"; };
+		BCB70F121BB45E870012CD10 /* StationTV2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StationTV2.m; sourceTree = "<group>"; };
+		BCB70F181BB462D20012CD10 /* 2.可变字符串的操作 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2.可变字符串的操作"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB70F1A1BB462D20012CD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB70F231BB470A50012CD10 /* Description的用法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Description的用法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB70F251BB470A50012CD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB70F2A1BB470BC0012CD10 /* QFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFDog.h; sourceTree = "<group>"; };
+		BCB70F2B1BB470BC0012CD10 /* QFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFDog.m; sourceTree = "<group>"; };
+		BCB70F311BB477680012CD10 /* 4.数组的创建方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4.数组的创建方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB70F331BB477680012CD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB70F381BB49DF90012CD10 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BCB70F391BB49DF90012CD10 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BCB70F3F1BB4A1D80012CD10 /* 5.数组的常用方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5.数组的常用方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB70F411BB4A1D80012CD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCB70F461BB4AB1E0012CD10 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BCB70F471BB4AB1E0012CD10 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BCB70F4D1BB4B6C20012CD10 /* 6.可变数组的常用方法 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.可变数组的常用方法"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB70F4F1BB4B6C20012CD10 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB70F011BB45A520012CD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F151BB462D20012CD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F201BB470A50012CD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F2E1BB477680012CD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F3C1BB4A1D80012CD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F4A1BB4B6C20012CD10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCB70EFB1BB45A520012CD10 = {
+			isa = PBXGroup;
+			children = (
+				BCB70F061BB45A520012CD10 /* 1.家庭作业 */,
+				BCB70F191BB462D20012CD10 /* 2.可变字符串的操作 */,
+				BCB70F241BB470A50012CD10 /* Description的用法 */,
+				BCB70F321BB477680012CD10 /* 4.数组的创建方法 */,
+				BCB70F401BB4A1D80012CD10 /* 5.数组的常用方法 */,
+				BCB70F4E1BB4B6C20012CD10 /* 6.可变数组的常用方法 */,
+				BCB70F051BB45A520012CD10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB70F051BB45A520012CD10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB70F041BB45A520012CD10 /* 1.家庭作业 */,
+				BCB70F181BB462D20012CD10 /* 2.可变字符串的操作 */,
+				BCB70F231BB470A50012CD10 /* Description的用法 */,
+				BCB70F311BB477680012CD10 /* 4.数组的创建方法 */,
+				BCB70F3F1BB4A1D80012CD10 /* 5.数组的常用方法 */,
+				BCB70F4D1BB4B6C20012CD10 /* 6.可变数组的常用方法 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB70F061BB45A520012CD10 /* 1.家庭作业 */ = {
+			isa = PBXGroup;
+			children = (
+				BCB70F071BB45A520012CD10 /* main.m */,
+				BCB70F0E1BB45A6D0012CD10 /* StationTV1.h */,
+				BCB70F0F1BB45A6D0012CD10 /* StationTV1.m */,
+				BCB70F111BB45E870012CD10 /* StationTV2.h */,
+				BCB70F121BB45E870012CD10 /* StationTV2.m */,
+			);
+			path = "1.家庭作业";
+			sourceTree = "<group>";
+		};
+		BCB70F191BB462D20012CD10 /* 2.可变字符串的操作 */ = {
+			isa = PBXGroup;
+			children = (
+				BCB70F1A1BB462D20012CD10 /* main.m */,
+			);
+			path = "2.可变字符串的操作";
+			sourceTree = "<group>";
+		};
+		BCB70F241BB470A50012CD10 /* Description的用法 */ = {
+			isa = PBXGroup;
+			children = (
+				BCB70F251BB470A50012CD10 /* main.m */,
+				BCB70F2A1BB470BC0012CD10 /* QFDog.h */,
+				BCB70F2B1BB470BC0012CD10 /* QFDog.m */,
+			);
+			path = "Description的用法";
+			sourceTree = "<group>";
+		};
+		BCB70F321BB477680012CD10 /* 4.数组的创建方法 */ = {
+			isa = PBXGroup;
+			children = (
+				BCB70F331BB477680012CD10 /* main.m */,
+				BCB70F381BB49DF90012CD10 /* Person.h */,
+				BCB70F391BB49DF90012CD10 /* Person.m */,
+			);
+			path = "4.数组的创建方法";
+			sourceTree = "<group>";
+		};
+		BCB70F401BB4A1D80012CD10 /* 5.数组的常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				BCB70F411BB4A1D80012CD10 /* main.m */,
+				BCB70F461BB4AB1E0012CD10 /* Person.h */,
+				BCB70F471BB4AB1E0012CD10 /* Person.m */,
+			);
+			path = "5.数组的常用方法";
+			sourceTree = "<group>";
+		};
+		BCB70F4E1BB4B6C20012CD10 /* 6.可变数组的常用方法 */ = {
+			isa = PBXGroup;
+			children = (
+				BCB70F4F1BB4B6C20012CD10 /* main.m */,
+			);
+			path = "6.可变数组的常用方法";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB70F031BB45A520012CD10 /* 1.家庭作业 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB70F0B1BB45A520012CD10 /* Build configuration list for PBXNativeTarget "1.家庭作业" */;
+			buildPhases = (
+				BCB70F001BB45A520012CD10 /* Sources */,
+				BCB70F011BB45A520012CD10 /* Frameworks */,
+				BCB70F021BB45A520012CD10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.家庭作业";
+			productName = "1.家庭作业";
+			productReference = BCB70F041BB45A520012CD10 /* 1.家庭作业 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCB70F171BB462D20012CD10 /* 2.可变字符串的操作 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB70F1E1BB462D20012CD10 /* Build configuration list for PBXNativeTarget "2.可变字符串的操作" */;
+			buildPhases = (
+				BCB70F141BB462D20012CD10 /* Sources */,
+				BCB70F151BB462D20012CD10 /* Frameworks */,
+				BCB70F161BB462D20012CD10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.可变字符串的操作";
+			productName = "2.可变字符串的操作";
+			productReference = BCB70F181BB462D20012CD10 /* 2.可变字符串的操作 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCB70F221BB470A50012CD10 /* Description的用法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB70F271BB470A50012CD10 /* Build configuration list for PBXNativeTarget "Description的用法" */;
+			buildPhases = (
+				BCB70F1F1BB470A50012CD10 /* Sources */,
+				BCB70F201BB470A50012CD10 /* Frameworks */,
+				BCB70F211BB470A50012CD10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Description的用法";
+			productName = "Description的用法";
+			productReference = BCB70F231BB470A50012CD10 /* Description的用法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCB70F301BB477680012CD10 /* 4.数组的创建方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB70F351BB477680012CD10 /* Build configuration list for PBXNativeTarget "4.数组的创建方法" */;
+			buildPhases = (
+				BCB70F2D1BB477680012CD10 /* Sources */,
+				BCB70F2E1BB477680012CD10 /* Frameworks */,
+				BCB70F2F1BB477680012CD10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4.数组的创建方法";
+			productName = "4.数组的创建方法";
+			productReference = BCB70F311BB477680012CD10 /* 4.数组的创建方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCB70F3E1BB4A1D80012CD10 /* 5.数组的常用方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB70F431BB4A1D80012CD10 /* Build configuration list for PBXNativeTarget "5.数组的常用方法" */;
+			buildPhases = (
+				BCB70F3B1BB4A1D80012CD10 /* Sources */,
+				BCB70F3C1BB4A1D80012CD10 /* Frameworks */,
+				BCB70F3D1BB4A1D80012CD10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5.数组的常用方法";
+			productName = "5.数组的常用方法";
+			productReference = BCB70F3F1BB4A1D80012CD10 /* 5.数组的常用方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCB70F4C1BB4B6C20012CD10 /* 6.可变数组的常用方法 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB70F511BB4B6C20012CD10 /* Build configuration list for PBXNativeTarget "6.可变数组的常用方法" */;
+			buildPhases = (
+				BCB70F491BB4B6C20012CD10 /* Sources */,
+				BCB70F4A1BB4B6C20012CD10 /* Frameworks */,
+				BCB70F4B1BB4B6C20012CD10 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.可变数组的常用方法";
+			productName = "6.可变数组的常用方法";
+			productReference = BCB70F4D1BB4B6C20012CD10 /* 6.可变数组的常用方法 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB70EFC1BB45A520012CD10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					BCB70F031BB45A520012CD10 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCB70F171BB462D20012CD10 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCB70F221BB470A50012CD10 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCB70F301BB477680012CD10 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCB70F3E1BB4A1D80012CD10 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCB70F4C1BB4B6C20012CD10 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = BCB70EFF1BB45A520012CD10 /* Build configuration list for PBXProject "1.家庭作业" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCB70EFB1BB45A520012CD10;
+			productRefGroup = BCB70F051BB45A520012CD10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB70F031BB45A520012CD10 /* 1.家庭作业 */,
+				BCB70F171BB462D20012CD10 /* 2.可变字符串的操作 */,
+				BCB70F221BB470A50012CD10 /* Description的用法 */,
+				BCB70F301BB477680012CD10 /* 4.数组的创建方法 */,
+				BCB70F3E1BB4A1D80012CD10 /* 5.数组的常用方法 */,
+				BCB70F4C1BB4B6C20012CD10 /* 6.可变数组的常用方法 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB70F001BB45A520012CD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB70F101BB45A6D0012CD10 /* StationTV1.m in Sources */,
+				BCB70F081BB45A520012CD10 /* main.m in Sources */,
+				BCB70F131BB45E870012CD10 /* StationTV2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F141BB462D20012CD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB70F1B1BB462D20012CD10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F1F1BB470A50012CD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB70F261BB470A50012CD10 /* main.m in Sources */,
+				BCB70F2C1BB470BC0012CD10 /* QFDog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F2D1BB477680012CD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB70F3A1BB49DF90012CD10 /* Person.m in Sources */,
+				BCB70F341BB477680012CD10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F3B1BB4A1D80012CD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB70F481BB4AB1E0012CD10 /* Person.m in Sources */,
+				BCB70F421BB4A1D80012CD10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCB70F491BB4B6C20012CD10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB70F501BB4B6C20012CD10 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCB70F091BB45A520012CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCB70F0A1BB45A520012CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCB70F0C1BB45A520012CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCB70F0D1BB45A520012CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCB70F1C1BB462D20012CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCB70F1D1BB462D20012CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCB70F281BB470A50012CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCB70F291BB470A50012CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCB70F361BB477680012CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCB70F371BB477680012CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCB70F441BB4A1D80012CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCB70F451BB4A1D80012CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCB70F521BB4B6C20012CD10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCB70F531BB4B6C20012CD10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB70EFF1BB45A520012CD10 /* Build configuration list for PBXProject "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB70F091BB45A520012CD10 /* Debug */,
+				BCB70F0A1BB45A520012CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB70F0B1BB45A520012CD10 /* Build configuration list for PBXNativeTarget "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB70F0C1BB45A520012CD10 /* Debug */,
+				BCB70F0D1BB45A520012CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB70F1E1BB462D20012CD10 /* Build configuration list for PBXNativeTarget "2.可变字符串的操作" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB70F1C1BB462D20012CD10 /* Debug */,
+				BCB70F1D1BB462D20012CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB70F271BB470A50012CD10 /* Build configuration list for PBXNativeTarget "Description的用法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB70F281BB470A50012CD10 /* Debug */,
+				BCB70F291BB470A50012CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB70F351BB477680012CD10 /* Build configuration list for PBXNativeTarget "4.数组的创建方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB70F361BB477680012CD10 /* Debug */,
+				BCB70F371BB477680012CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB70F431BB4A1D80012CD10 /* Build configuration list for PBXNativeTarget "5.数组的常用方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB70F441BB4A1D80012CD10 /* Debug */,
+				BCB70F451BB4A1D80012CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCB70F511BB4B6C20012CD10 /* Build configuration list for PBXNativeTarget "6.可变数组的常用方法" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB70F521BB4B6C20012CD10 /* Debug */,
+				BCB70F531BB4B6C20012CD10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCB70EFC1BB45A520012CD10 /* Project object */;
+}

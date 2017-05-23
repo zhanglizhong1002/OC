@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD944041BCC16490000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944031BCC16490000655A /* main.m */; };
+		BCD944101BCC16E50000655A /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9440F1BCC16E50000655A /* Product.m */; };
+		BCD944131BCC16F20000655A /* Saler.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944121BCC16F20000655A /* Saler.m */; };
+		BCD9441B1BCC23F80000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9441A1BCC23F80000655A /* main.m */; };
+		BCD944261BCC38A10000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944251BCC38A10000655A /* main.m */; };
+		BCD944311BCC65AD0000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944301BCC65AD0000655A /* main.m */; };
+		BCD944371BCC67C00000655A /* BookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944361BCC67C00000655A /* BookModel.m */; };
+		BCD9443A1BCC688E0000655A /* TagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944391BCC688E0000655A /* TagsModel.m */; };
+		BCD944421BCC76A30000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944411BCC76A30000655A /* main.m */; };
+		BCD944481BCC77C00000655A /* QFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944471BCC77C00000655A /* QFModel.m */; };
+		BCD9444B1BCC77D10000655A /* TasModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9444A1BCC77D10000655A /* TasModel.m */; };
+		BCD944531BCC7C710000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944521BCC7C710000655A /* main.m */; };
+		BCD944591BCC7C880000655A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944581BCC7C880000655A /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCD943FE1BCC16490000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944161BCC23F80000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944211BCC38A10000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD9442C1BCC65AD0000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD9443D1BCC76A30000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD9444E1BCC7C710000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCD944001BCC16490000655A /* 1.家庭作业 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.家庭作业"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944031BCC16490000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD9440D1BCC16820000655A /* DoWorkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoWorkProtocol.h; sourceTree = "<group>"; };
+		BCD9440E1BCC16E50000655A /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		BCD9440F1BCC16E50000655A /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		BCD944111BCC16F20000655A /* Saler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Saler.h; sourceTree = "<group>"; };
+		BCD944121BCC16F20000655A /* Saler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Saler.m; sourceTree = "<group>"; };
+		BCD944181BCC23F80000655A /* 2.NSURL初步认识 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2.NSURL初步认识"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD9441A1BCC23F80000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD944231BCC38A10000655A /* 简单的JSon解析 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "简单的JSon解析"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944251BCC38A10000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD9442E1BCC65AD0000655A /* 4.建立数据模型存储JSON数据 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "4.建立数据模型存储JSON数据"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944301BCC65AD0000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD944351BCC67C00000655A /* BookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookModel.h; sourceTree = "<group>"; };
+		BCD944361BCC67C00000655A /* BookModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookModel.m; sourceTree = "<group>"; };
+		BCD944381BCC688E0000655A /* TagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsModel.h; sourceTree = "<group>"; };
+		BCD944391BCC688E0000655A /* TagsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsModel.m; sourceTree = "<group>"; };
+		BCD9443F1BCC76A30000655A /* 5.练习数据建模 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5.练习数据建模"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944411BCC76A30000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD944461BCC77C00000655A /* QFModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFModel.h; sourceTree = "<group>"; };
+		BCD944471BCC77C00000655A /* QFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFModel.m; sourceTree = "<group>"; };
+		BCD944491BCC77D10000655A /* TasModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TasModel.h; sourceTree = "<group>"; };
+		BCD9444A1BCC77D10000655A /* TasModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TasModel.m; sourceTree = "<group>"; };
+		BCD944501BCC7C710000655A /* 6.自定义对象的归档与解档 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.自定义对象的归档与解档"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944521BCC7C710000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD944571BCC7C880000655A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BCD944581BCC7C880000655A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD943FD1BCC16490000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944151BCC23F80000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944201BCC38A10000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9442B1BCC65AD0000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9443C1BCC76A30000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9444D1BCC7C710000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD943F71BCC16490000655A = {
+			isa = PBXGroup;
+			children = (
+				BCD944021BCC16490000655A /* 1.家庭作业 */,
+				BCD944191BCC23F80000655A /* 2.NSURL初步认识 */,
+				BCD944241BCC38A10000655A /* 简单的JSon解析 */,
+				BCD9442F1BCC65AD0000655A /* 4.建立数据模型存储JSON数据 */,
+				BCD944401BCC76A30000655A /* 5.练习数据建模 */,
+				BCD944511BCC7C710000655A /* 6.自定义对象的归档与解档 */,
+				BCD944011BCC16490000655A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD944011BCC16490000655A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944001BCC16490000655A /* 1.家庭作业 */,
+				BCD944181BCC23F80000655A /* 2.NSURL初步认识 */,
+				BCD944231BCC38A10000655A /* 简单的JSon解析 */,
+				BCD9442E1BCC65AD0000655A /* 4.建立数据模型存储JSON数据 */,
+				BCD9443F1BCC76A30000655A /* 5.练习数据建模 */,
+				BCD944501BCC7C710000655A /* 6.自定义对象的归档与解档 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD944021BCC16490000655A /* 1.家庭作业 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9440D1BCC16820000655A /* DoWorkProtocol.h */,
+				BCD9440E1BCC16E50000655A /* Product.h */,
+				BCD9440F1BCC16E50000655A /* Product.m */,
+				BCD944111BCC16F20000655A /* Saler.h */,
+				BCD944121BCC16F20000655A /* Saler.m */,
+				BCD944031BCC16490000655A /* main.m */,
+			);
+			path = "1.家庭作业";
+			sourceTree = "<group>";
+		};
+		BCD944191BCC23F80000655A /* 2.NSURL初步认识 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD9441A1BCC23F80000655A /* main.m */,
+			);
+			path = "2.NSURL初步认识";
+			sourceTree = "<group>";
+		};
+		BCD944241BCC38A10000655A /* 简单的JSon解析 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944251BCC38A10000655A /* main.m */,
+			);
+			path = "简单的JSon解析";
+			sourceTree = "<group>";
+		};
+		BCD9442F1BCC65AD0000655A /* 4.建立数据模型存储JSON数据 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944301BCC65AD0000655A /* main.m */,
+				BCD944381BCC688E0000655A /* TagsModel.h */,
+				BCD944391BCC688E0000655A /* TagsModel.m */,
+				BCD944351BCC67C00000655A /* BookModel.h */,
+				BCD944361BCC67C00000655A /* BookModel.m */,
+			);
+			path = "4.建立数据模型存储JSON数据";
+			sourceTree = "<group>";
+		};
+		BCD944401BCC76A30000655A /* 5.练习数据建模 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944411BCC76A30000655A /* main.m */,
+				BCD944461BCC77C00000655A /* QFModel.h */,
+				BCD944471BCC77C00000655A /* QFModel.m */,
+				BCD944491BCC77D10000655A /* TasModel.h */,
+				BCD9444A1BCC77D10000655A /* TasModel.m */,
+			);
+			path = "5.练习数据建模";
+			sourceTree = "<group>";
+		};
+		BCD944511BCC7C710000655A /* 6.自定义对象的归档与解档 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944521BCC7C710000655A /* main.m */,
+				BCD944571BCC7C880000655A /* Person.h */,
+				BCD944581BCC7C880000655A /* Person.m */,
+			);
+			path = "6.自定义对象的归档与解档";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD943FF1BCC16490000655A /* 1.家庭作业 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944071BCC16490000655A /* Build configuration list for PBXNativeTarget "1.家庭作业" */;
+			buildPhases = (
+				BCD943FC1BCC16490000655A /* Sources */,
+				BCD943FD1BCC16490000655A /* Frameworks */,
+				BCD943FE1BCC16490000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.家庭作业";
+			productName = "1.家庭作业";
+			productReference = BCD944001BCC16490000655A /* 1.家庭作业 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944171BCC23F80000655A /* 2.NSURL初步认识 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD9441C1BCC23F80000655A /* Build configuration list for PBXNativeTarget "2.NSURL初步认识" */;
+			buildPhases = (
+				BCD944141BCC23F80000655A /* Sources */,
+				BCD944151BCC23F80000655A /* Frameworks */,
+				BCD944161BCC23F80000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.NSURL初步认识";
+			productName = "2.NSURL初步认识";
+			productReference = BCD944181BCC23F80000655A /* 2.NSURL初步认识 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944221BCC38A10000655A /* 简单的JSon解析 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944271BCC38A10000655A /* Build configuration list for PBXNativeTarget "简单的JSon解析" */;
+			buildPhases = (
+				BCD9441F1BCC38A10000655A /* Sources */,
+				BCD944201BCC38A10000655A /* Frameworks */,
+				BCD944211BCC38A10000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "简单的JSon解析";
+			productName = "简单的JSon解析";
+			productReference = BCD944231BCC38A10000655A /* 简单的JSon解析 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD9442D1BCC65AD0000655A /* 4.建立数据模型存储JSON数据 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944341BCC65AD0000655A /* Build configuration list for PBXNativeTarget "4.建立数据模型存储JSON数据" */;
+			buildPhases = (
+				BCD9442A1BCC65AD0000655A /* Sources */,
+				BCD9442B1BCC65AD0000655A /* Frameworks */,
+				BCD9442C1BCC65AD0000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "4.建立数据模型存储JSON数据";
+			productName = "4.建立数据模型存储JSON数据";
+			productReference = BCD9442E1BCC65AD0000655A /* 4.建立数据模型存储JSON数据 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD9443E1BCC76A30000655A /* 5.练习数据建模 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944431BCC76A30000655A /* Build configuration list for PBXNativeTarget "5.练习数据建模" */;
+			buildPhases = (
+				BCD9443B1BCC76A30000655A /* Sources */,
+				BCD9443C1BCC76A30000655A /* Frameworks */,
+				BCD9443D1BCC76A30000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5.练习数据建模";
+			productName = "5.练习数据建模";
+			productReference = BCD9443F1BCC76A30000655A /* 5.练习数据建模 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD9444F1BCC7C710000655A /* 6.自定义对象的归档与解档 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944541BCC7C710000655A /* Build configuration list for PBXNativeTarget "6.自定义对象的归档与解档" */;
+			buildPhases = (
+				BCD9444C1BCC7C710000655A /* Sources */,
+				BCD9444D1BCC7C710000655A /* Frameworks */,
+				BCD9444E1BCC7C710000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.自定义对象的归档与解档";
+			productName = "6.自定义对象的归档与解档";
+			productReference = BCD944501BCC7C710000655A /* 6.自定义对象的归档与解档 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD943F81BCC16490000655A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					BCD943FF1BCC16490000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944171BCC23F80000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944221BCC38A10000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD9442D1BCC65AD0000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD9443E1BCC76A30000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD9444F1BCC7C710000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = BCD943FB1BCC16490000655A /* Build configuration list for PBXProject "1.家庭作业" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCD943F71BCC16490000655A;
+			productRefGroup = BCD944011BCC16490000655A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD943FF1BCC16490000655A /* 1.家庭作业 */,
+				BCD944171BCC23F80000655A /* 2.NSURL初步认识 */,
+				BCD944221BCC38A10000655A /* 简单的JSon解析 */,
+				BCD9442D1BCC65AD0000655A /* 4.建立数据模型存储JSON数据 */,
+				BCD9443E1BCC76A30000655A /* 5.练习数据建模 */,
+				BCD9444F1BCC7C710000655A /* 6.自定义对象的归档与解档 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD943FC1BCC16490000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944131BCC16F20000655A /* Saler.m in Sources */,
+				BCD944041BCC16490000655A /* main.m in Sources */,
+				BCD944101BCC16E50000655A /* Product.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944141BCC23F80000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD9441B1BCC23F80000655A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9441F1BCC38A10000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944261BCC38A10000655A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9442A1BCC65AD0000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944371BCC67C00000655A /* BookModel.m in Sources */,
+				BCD9443A1BCC688E0000655A /* TagsModel.m in Sources */,
+				BCD944311BCC65AD0000655A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9443B1BCC76A30000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944481BCC77C00000655A /* QFModel.m in Sources */,
+				BCD944421BCC76A30000655A /* main.m in Sources */,
+				BCD9444B1BCC77D10000655A /* TasModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9444C1BCC7C710000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944591BCC7C880000655A /* Person.m in Sources */,
+				BCD944531BCC7C710000655A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCD944051BCC16490000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCD944061BCC16490000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCD944081BCC16490000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944091BCC16490000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD9441D1BCC23F80000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD9441E1BCC23F80000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD944281BCC38A10000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944291BCC38A10000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD944321BCC65AD0000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944331BCC65AD0000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD944441BCC76A30000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944451BCC76A30000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD944551BCC7C710000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944561BCC7C710000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD943FB1BCC16490000655A /* Build configuration list for PBXProject "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944051BCC16490000655A /* Debug */,
+				BCD944061BCC16490000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD944071BCC16490000655A /* Build configuration list for PBXNativeTarget "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944081BCC16490000655A /* Debug */,
+				BCD944091BCC16490000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD9441C1BCC23F80000655A /* Build configuration list for PBXNativeTarget "2.NSURL初步认识" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD9441D1BCC23F80000655A /* Debug */,
+				BCD9441E1BCC23F80000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD944271BCC38A10000655A /* Build configuration list for PBXNativeTarget "简单的JSon解析" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944281BCC38A10000655A /* Debug */,
+				BCD944291BCC38A10000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD944341BCC65AD0000655A /* Build configuration list for PBXNativeTarget "4.建立数据模型存储JSON数据" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944321BCC65AD0000655A /* Debug */,
+				BCD944331BCC65AD0000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCD944431BCC76A30000655A /* Build configuration list for PBXNativeTarget "5.练习数据建模" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944441BCC76A30000655A /* Debug */,
+				BCD944451BCC76A30000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCD944541BCC7C710000655A /* Build configuration list for PBXNativeTarget "6.自定义对象的归档与解档" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944551BCC7C710000655A /* Debug */,
+				BCD944561BCC7C710000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD943F81BCC16490000655A /* Project object */;
+}

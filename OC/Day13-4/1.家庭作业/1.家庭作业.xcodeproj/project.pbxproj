@@ -1,0 +1,826 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD944B31BCEB6DA0000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944B21BCEB6DA0000655A /* main.m */; };
+		BCD944BC1BCEB74F0000655A /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944BB1BCEB74F0000655A /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BCD944BF1BCEBA0D0000655A /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944BE1BCEBA0D0000655A /* UserModel.m */; };
+		BCD944C21BCEBA180000655A /* TagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944C11BCEBA180000655A /* TagsModel.m */; };
+		BCD944CA1BCEC62C0000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944C91BCEC62C0000655A /* main.m */; };
+		BCD944D51BCED2640000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944D41BCED2640000655A /* main.m */; };
+		BCD944DB1BCED5DA0000655A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944DA1BCED5DA0000655A /* Person.m */; };
+		BCD944E31BCF075A0000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944E21BCF075A0000655A /* main.m */; };
+		BCD944E91BCF07910000655A /* QFDog.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944E81BCF07910000655A /* QFDog.m */; };
+		BCD944F11BCF174B0000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944F01BCF174B0000655A /* main.m */; };
+		BCD944F71BCF18650000655A /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944F61BCF18650000655A /* Boy.m */; };
+		BCD944FA1BCF186F0000655A /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD944F91BCF186F0000655A /* Girl.m */; };
+		BCD945021BCF1D650000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD945011BCF1D650000655A /* main.m */; };
+		BCD945081BCF1D770000655A /* Boy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD945071BCF1D770000655A /* Boy.m */; };
+		BCD9450B1BCF1D8D0000655A /* Girl.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD9450A1BCF1D8D0000655A /* Girl.m */; };
+		BCD945131BCF24E20000655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD945121BCF24E20000655A /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BCD944AD1BCEB6DA0000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944C51BCEC62C0000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944D01BCED2640000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944DE1BCF075A0000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944EC1BCF174B0000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD944FD1BCF1D650000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BCD9450E1BCF24E20000655A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BCD944AF1BCEB6DA0000655A /* 1.家庭作业 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1.家庭作业"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944B21BCEB6DA0000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD944BA1BCEB74F0000655A /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		BCD944BB1BCEB74F0000655A /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
+		BCD944BD1BCEBA0D0000655A /* UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		BCD944BE1BCEBA0D0000655A /* UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		BCD944C01BCEBA180000655A /* TagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TagsModel.h; sourceTree = "<group>"; };
+		BCD944C11BCEBA180000655A /* TagsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TagsModel.m; sourceTree = "<group>"; };
+		BCD944C71BCEC62C0000655A /* 2.Block的基本使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "2.Block的基本使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944C91BCEC62C0000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD944D21BCED2640000655A /* Block作为参数传递 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Block作为参数传递"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944D41BCED2640000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD944D91BCED5DA0000655A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BCD944DA1BCED5DA0000655A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		BCD944E01BCF075A0000655A /* Typedefine在block中的应用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Typedefine在block中的应用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944E21BCF075A0000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD944E71BCF07910000655A /* QFDog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QFDog.h; sourceTree = "<group>"; };
+		BCD944E81BCF07910000655A /* QFDog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QFDog.m; sourceTree = "<group>"; };
+		BCD944EE1BCF174B0000655A /* 5.使用block实现简单协议代理 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "5.使用block实现简单协议代理"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD944F01BCF174B0000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD944F51BCF18650000655A /* Boy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boy.h; sourceTree = "<group>"; };
+		BCD944F61BCF18650000655A /* Boy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boy.m; sourceTree = "<group>"; };
+		BCD944F81BCF186F0000655A /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Girl.h; sourceTree = "<group>"; };
+		BCD944F91BCF186F0000655A /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
+		BCD944FF1BCF1D650000655A /* 6.block实现代理回馈 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "6.block实现代理回馈"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD945011BCF1D650000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD945061BCF1D770000655A /* Boy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Boy.h; sourceTree = "<group>"; };
+		BCD945071BCF1D770000655A /* Boy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Boy.m; sourceTree = "<group>"; };
+		BCD945091BCF1D8D0000655A /* Girl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Girl.h; sourceTree = "<group>"; };
+		BCD9450A1BCF1D8D0000655A /* Girl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Girl.m; sourceTree = "<group>"; };
+		BCD945101BCF24E20000655A /* 7.Block在排序算法中的使用 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "7.Block在排序算法中的使用"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD945121BCF24E20000655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD944AC1BCEB6DA0000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944C41BCEC62C0000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944CF1BCED2640000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944DD1BCF075A0000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944EB1BCF174B0000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944FC1BCF1D650000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9450D1BCF24E20000655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD944A61BCEB6DA0000655A = {
+			isa = PBXGroup;
+			children = (
+				BCD944B11BCEB6DA0000655A /* 1.家庭作业 */,
+				BCD944C81BCEC62C0000655A /* 2.Block的基本使用 */,
+				BCD944D31BCED2640000655A /* Block作为参数传递 */,
+				BCD944E11BCF075A0000655A /* Typedefine在block中的应用 */,
+				BCD944EF1BCF174B0000655A /* 5.使用block实现简单协议代理 */,
+				BCD945001BCF1D650000655A /* 6.block实现代理回馈 */,
+				BCD945111BCF24E20000655A /* 7.Block在排序算法中的使用 */,
+				BCD944B01BCEB6DA0000655A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD944B01BCEB6DA0000655A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944AF1BCEB6DA0000655A /* 1.家庭作业 */,
+				BCD944C71BCEC62C0000655A /* 2.Block的基本使用 */,
+				BCD944D21BCED2640000655A /* Block作为参数传递 */,
+				BCD944E01BCF075A0000655A /* Typedefine在block中的应用 */,
+				BCD944EE1BCF174B0000655A /* 5.使用block实现简单协议代理 */,
+				BCD944FF1BCF1D650000655A /* 6.block实现代理回馈 */,
+				BCD945101BCF24E20000655A /* 7.Block在排序算法中的使用 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD944B11BCEB6DA0000655A /* 1.家庭作业 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944B91BCEB74F0000655A /* GDataXMLNode */,
+				BCD944B21BCEB6DA0000655A /* main.m */,
+				BCD944BD1BCEBA0D0000655A /* UserModel.h */,
+				BCD944BE1BCEBA0D0000655A /* UserModel.m */,
+				BCD944C01BCEBA180000655A /* TagsModel.h */,
+				BCD944C11BCEBA180000655A /* TagsModel.m */,
+			);
+			path = "1.家庭作业";
+			sourceTree = "<group>";
+		};
+		BCD944B91BCEB74F0000655A /* GDataXMLNode */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944BA1BCEB74F0000655A /* GDataXMLNode.h */,
+				BCD944BB1BCEB74F0000655A /* GDataXMLNode.m */,
+			);
+			path = GDataXMLNode;
+			sourceTree = "<group>";
+		};
+		BCD944C81BCEC62C0000655A /* 2.Block的基本使用 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944C91BCEC62C0000655A /* main.m */,
+			);
+			path = "2.Block的基本使用";
+			sourceTree = "<group>";
+		};
+		BCD944D31BCED2640000655A /* Block作为参数传递 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944D41BCED2640000655A /* main.m */,
+				BCD944D91BCED5DA0000655A /* Person.h */,
+				BCD944DA1BCED5DA0000655A /* Person.m */,
+			);
+			path = "Block作为参数传递";
+			sourceTree = "<group>";
+		};
+		BCD944E11BCF075A0000655A /* Typedefine在block中的应用 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944E21BCF075A0000655A /* main.m */,
+				BCD944E71BCF07910000655A /* QFDog.h */,
+				BCD944E81BCF07910000655A /* QFDog.m */,
+			);
+			path = "Typedefine在block中的应用";
+			sourceTree = "<group>";
+		};
+		BCD944EF1BCF174B0000655A /* 5.使用block实现简单协议代理 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD944F01BCF174B0000655A /* main.m */,
+				BCD944F51BCF18650000655A /* Boy.h */,
+				BCD944F61BCF18650000655A /* Boy.m */,
+				BCD944F81BCF186F0000655A /* Girl.h */,
+				BCD944F91BCF186F0000655A /* Girl.m */,
+			);
+			path = "5.使用block实现简单协议代理";
+			sourceTree = "<group>";
+		};
+		BCD945001BCF1D650000655A /* 6.block实现代理回馈 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD945011BCF1D650000655A /* main.m */,
+				BCD945061BCF1D770000655A /* Boy.h */,
+				BCD945071BCF1D770000655A /* Boy.m */,
+				BCD945091BCF1D8D0000655A /* Girl.h */,
+				BCD9450A1BCF1D8D0000655A /* Girl.m */,
+			);
+			path = "6.block实现代理回馈";
+			sourceTree = "<group>";
+		};
+		BCD945111BCF24E20000655A /* 7.Block在排序算法中的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				BCD945121BCF24E20000655A /* main.m */,
+			);
+			path = "7.Block在排序算法中的使用";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD944AE1BCEB6DA0000655A /* 1.家庭作业 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944B61BCEB6DA0000655A /* Build configuration list for PBXNativeTarget "1.家庭作业" */;
+			buildPhases = (
+				BCD944AB1BCEB6DA0000655A /* Sources */,
+				BCD944AC1BCEB6DA0000655A /* Frameworks */,
+				BCD944AD1BCEB6DA0000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "1.家庭作业";
+			productName = "1.家庭作业";
+			productReference = BCD944AF1BCEB6DA0000655A /* 1.家庭作业 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944C61BCEC62C0000655A /* 2.Block的基本使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944CD1BCEC62C0000655A /* Build configuration list for PBXNativeTarget "2.Block的基本使用" */;
+			buildPhases = (
+				BCD944C31BCEC62C0000655A /* Sources */,
+				BCD944C41BCEC62C0000655A /* Frameworks */,
+				BCD944C51BCEC62C0000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "2.Block的基本使用";
+			productName = "2.Block的基本使用";
+			productReference = BCD944C71BCEC62C0000655A /* 2.Block的基本使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944D11BCED2640000655A /* Block作为参数传递 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944D61BCED2640000655A /* Build configuration list for PBXNativeTarget "Block作为参数传递" */;
+			buildPhases = (
+				BCD944CE1BCED2640000655A /* Sources */,
+				BCD944CF1BCED2640000655A /* Frameworks */,
+				BCD944D01BCED2640000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Block作为参数传递";
+			productName = "Block作为参数传递";
+			productReference = BCD944D21BCED2640000655A /* Block作为参数传递 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944DF1BCF075A0000655A /* Typedefine在block中的应用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944E61BCF075A0000655A /* Build configuration list for PBXNativeTarget "Typedefine在block中的应用" */;
+			buildPhases = (
+				BCD944DC1BCF075A0000655A /* Sources */,
+				BCD944DD1BCF075A0000655A /* Frameworks */,
+				BCD944DE1BCF075A0000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Typedefine在block中的应用";
+			productName = "Typedefine在block中的应用";
+			productReference = BCD944E01BCF075A0000655A /* Typedefine在block中的应用 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944ED1BCF174B0000655A /* 5.使用block实现简单协议代理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD944F21BCF174B0000655A /* Build configuration list for PBXNativeTarget "5.使用block实现简单协议代理" */;
+			buildPhases = (
+				BCD944EA1BCF174B0000655A /* Sources */,
+				BCD944EB1BCF174B0000655A /* Frameworks */,
+				BCD944EC1BCF174B0000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "5.使用block实现简单协议代理";
+			productName = "5.使用block实现简单协议代理";
+			productReference = BCD944EE1BCF174B0000655A /* 5.使用block实现简单协议代理 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD944FE1BCF1D650000655A /* 6.block实现代理回馈 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD945051BCF1D650000655A /* Build configuration list for PBXNativeTarget "6.block实现代理回馈" */;
+			buildPhases = (
+				BCD944FB1BCF1D650000655A /* Sources */,
+				BCD944FC1BCF1D650000655A /* Frameworks */,
+				BCD944FD1BCF1D650000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "6.block实现代理回馈";
+			productName = "6.block实现代理回馈";
+			productReference = BCD944FF1BCF1D650000655A /* 6.block实现代理回馈 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BCD9450F1BCF24E20000655A /* 7.Block在排序算法中的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD945161BCF24E20000655A /* Build configuration list for PBXNativeTarget "7.Block在排序算法中的使用" */;
+			buildPhases = (
+				BCD9450C1BCF24E20000655A /* Sources */,
+				BCD9450D1BCF24E20000655A /* Frameworks */,
+				BCD9450E1BCF24E20000655A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "7.Block在排序算法中的使用";
+			productName = "7.Block在排序算法中的使用";
+			productReference = BCD945101BCF24E20000655A /* 7.Block在排序算法中的使用 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD944A71BCEB6DA0000655A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qianfeng;
+				TargetAttributes = {
+					BCD944AE1BCEB6DA0000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944C61BCEC62C0000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944D11BCED2640000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944DF1BCF075A0000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944ED1BCF174B0000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD944FE1BCF1D650000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					BCD9450F1BCF24E20000655A = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = BCD944AA1BCEB6DA0000655A /* Build configuration list for PBXProject "1.家庭作业" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BCD944A61BCEB6DA0000655A;
+			productRefGroup = BCD944B01BCEB6DA0000655A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD944AE1BCEB6DA0000655A /* 1.家庭作业 */,
+				BCD944C61BCEC62C0000655A /* 2.Block的基本使用 */,
+				BCD944D11BCED2640000655A /* Block作为参数传递 */,
+				BCD944DF1BCF075A0000655A /* Typedefine在block中的应用 */,
+				BCD944ED1BCF174B0000655A /* 5.使用block实现简单协议代理 */,
+				BCD944FE1BCF1D650000655A /* 6.block实现代理回馈 */,
+				BCD9450F1BCF24E20000655A /* 7.Block在排序算法中的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD944AB1BCEB6DA0000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944B31BCEB6DA0000655A /* main.m in Sources */,
+				BCD944BC1BCEB74F0000655A /* GDataXMLNode.m in Sources */,
+				BCD944C21BCEBA180000655A /* TagsModel.m in Sources */,
+				BCD944BF1BCEBA0D0000655A /* UserModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944C31BCEC62C0000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944CA1BCEC62C0000655A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944CE1BCED2640000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944DB1BCED5DA0000655A /* Person.m in Sources */,
+				BCD944D51BCED2640000655A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944DC1BCF075A0000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944E31BCF075A0000655A /* main.m in Sources */,
+				BCD944E91BCF07910000655A /* QFDog.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944EA1BCF174B0000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD944F71BCF18650000655A /* Boy.m in Sources */,
+				BCD944F11BCF174B0000655A /* main.m in Sources */,
+				BCD944FA1BCF186F0000655A /* Girl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD944FB1BCF1D650000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD945081BCF1D770000655A /* Boy.m in Sources */,
+				BCD945021BCF1D650000655A /* main.m in Sources */,
+				BCD9450B1BCF1D8D0000655A /* Girl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD9450C1BCF24E20000655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD945131BCF24E20000655A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BCD944B41BCEB6DA0000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/include/libxml2\n\n",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-lxml2\n\n";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BCD944B51BCEB6DA0000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/usr/include/libxml2\n\n",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-lxml2\n\n";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BCD944B71BCEB6DA0000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944B81BCEB6DA0000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD944CB1BCEC62C0000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944CC1BCEC62C0000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD944D71BCED2640000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944D81BCED2640000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD944E41BCF075A0000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944E51BCF075A0000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD944F31BCF174B0000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD944F41BCF174B0000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD945031BCF1D650000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD945041BCF1D650000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD945141BCF24E20000655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD945151BCF24E20000655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD944AA1BCEB6DA0000655A /* Build configuration list for PBXProject "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944B41BCEB6DA0000655A /* Debug */,
+				BCD944B51BCEB6DA0000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD944B61BCEB6DA0000655A /* Build configuration list for PBXNativeTarget "1.家庭作业" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944B71BCEB6DA0000655A /* Debug */,
+				BCD944B81BCEB6DA0000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD944CD1BCEC62C0000655A /* Build configuration list for PBXNativeTarget "2.Block的基本使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944CB1BCEC62C0000655A /* Debug */,
+				BCD944CC1BCEC62C0000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD944D61BCED2640000655A /* Build configuration list for PBXNativeTarget "Block作为参数传递" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944D71BCED2640000655A /* Debug */,
+				BCD944D81BCED2640000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD944E61BCF075A0000655A /* Build configuration list for PBXNativeTarget "Typedefine在block中的应用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944E41BCF075A0000655A /* Debug */,
+				BCD944E51BCF075A0000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD944F21BCF174B0000655A /* Build configuration list for PBXNativeTarget "5.使用block实现简单协议代理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD944F31BCF174B0000655A /* Debug */,
+				BCD944F41BCF174B0000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD945051BCF1D650000655A /* Build configuration list for PBXNativeTarget "6.block实现代理回馈" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD945031BCF1D650000655A /* Debug */,
+				BCD945041BCF1D650000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD945161BCF24E20000655A /* Build configuration list for PBXNativeTarget "7.Block在排序算法中的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD945141BCF24E20000655A /* Debug */,
+				BCD945151BCF24E20000655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD944A71BCEB6DA0000655A /* Project object */;
+}
